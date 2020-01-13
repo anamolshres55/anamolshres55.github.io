@@ -513,8 +513,10 @@ a:hover {
 
 .progress-bar {
     background-color: #FA9D0D;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 #portfolio-content {
