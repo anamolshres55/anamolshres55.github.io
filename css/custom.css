@@ -268,7 +268,6 @@ a:hover {
 #home-content {
     position: absolute;
     top: 35%;
-    left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Dosis', sans-serif;
 }
@@ -277,10 +276,6 @@ a:hover {
     font-size: 60px;
     font-weight: bold;
     color: #4D91DE;
-}
-
-#home-content h3 {
-    left: 73%;
 }
 
 #about-content {
