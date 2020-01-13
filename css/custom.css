@@ -1,0 +1,728 @@
+@media screen and (max-width: 600px) {
+    body, html {
+        font-size: 15px;
+        overflow-y: scroll!important;
+    }
+    .visibility-off {
+        visibility: visible!important;
+    }
+    .sidebar {
+        display: none;
+    }
+    .content {
+        display: block;
+        position: relative!important;
+        top: 0!important;
+        left: 0!important;
+        width: 100%;
+        text-align: center;
+        transform: none!important;
+    }
+    #home-content {
+        top: 40%!important;
+        height: 100%;
+    }
+    #home-content h3 {
+        font-size: 20px;
+    }
+
+    #resume-content {
+        padding-bottom: 3rem!important;
+    }
+    .about-title {
+        padding: 40px 0px!important;
+    }
+    .about-me img {
+        width: 80%;
+    }
+    .about-me .row .col-sm-12 {
+        margin: 0 !important;
+    }
+    .about-me-details {
+        margin-left: 0px!important;
+    }
+    .about-me-social-icons {
+        padding: 0!important;
+    }
+    .about-me-icons-container {
+        width: 100%!important;
+    }
+    .portfolio-container {
+        margin: 0!important;
+    }
+    .content {
+        margin: 0!important;
+        padding-top: 10%;
+    }
+    .contact-form-list textarea {
+        width: 100%;
+    }
+
+    .about-title , .portfolio-title, .contact-title, .resume-title {
+        text-align: left;
+        padding-left: 20px!important;
+    }
+
+    .portfolio-text-container {
+        left: 30%!important
+    }
+}
+
+body, html {
+    font-size: 15px;
+    overflow-y: hidden;
+	overflow-x: hidden!important;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.sidebar {
+    background: black;
+    padding: 0;
+    position: sticky;
+    height: 100vh;
+}
+
+.profile-image-container {
+    padding: 20px;
+}
+
+.profile img {
+    width: 300px;
+    border-radius: 10px;
+    margin: -100px 20px;
+    display: block;
+}
+
+.profile-info {
+    text-align: center;
+    color: #FA9D0D;
+    font-family: 'Dosis', sans-serif;
+    word-spacing: 3px;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.skill-name1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    animation: 5s ease-in 0s infinite reverse fadein;
+    width: 100%;
+    color:white;
+}
+
+.skill-name2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: 5s ease-in 0s infinite reverse fadeout;
+    width: 100%;
+    color:white;
+}
+
+.sidebar-menu {
+    margin: 30px 0px;
+}
+
+.sidebar-menu-container {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu-container li {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.sidebar-menu-container li a {
+    color: #ffffff;
+    transition: 0.4s;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.sidebar-menu-container li a:hover {
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-left: 5px solid #FA9D0D
+}
+
+.sidebar-icons-container {
+    list-style-type: none;
+    width: 65%;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.sidebar-social-icons h6 {
+    text-align: center;
+    color: #FA9D0D;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar-icons-container li {
+    font-size: 20px;
+    padding: 5px 0px;
+    display: inline;
+}
+
+.sidebar-icons-container li>a>i {
+    color: white;
+}
+
+.sidebar-icons-container span {
+    margin: 0 5px;
+}
+
+.sidebar-icons-container .fa-circle {
+    color: #212529;
+}
+
+.fa-facebook-f:hover {
+    background-color: #3B5998 !important;
+    transition: background-color 0.5s;
+}
+
+.fa-instagram:hover {
+    background-color: #cd486b;
+    transition: background-color 0.5s;
+}
+
+.fa-twitter:hover {
+    background-color: #1DA1F2;
+    transition: background-color 0.5s;
+}
+
+.fa-google-plus-g:hover {
+    background-color: #DF4B38;
+    transition: background-color 0.5s;
+}
+
+.fa-youtube:hover {
+    background-color: #FF0000;
+    transition: background-color 0.5s;
+}
+
+.fa-github:hover {
+    background-color: #000000;
+    transition: background-color 0.5s;
+}
+
+.copyright-text {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10.5px;
+}
+
+.main-content {
+    background-image: url("../img/wallpaper.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.main-content {
+    position: relative;
+}
+
+#home-content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Dosis', sans-serif;
+}
+
+#home-content h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4D91DE;
+}
+
+#home-content h3 {
+    left: 73%;
+}
+
+#about-content {
+    background-color: black;
+    color: #6c757d;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-title {
+    padding: 10px 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.about-title h3 {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 -10px;
+    padding: 10px 20px 10px 70px;
+    background-color: #FA9D0D;
+    color: #fff;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+
+.about-title h3:after {
+    display: block;
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #FA9D0D;
+}
+
+.about-title h6 {
+    text-align: center;
+    display: inline;
+    color: white;
+    padding-left: 20px;
+}
+
+.about-me .col-md-3 img {
+    width: 100%;
+}
+
+.greetings p {
+    background-color: #FA9D0D;
+    text-align: center;
+    width: 100px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    margin: 10px 15px;
+    position: relative;
+}
+
+.greetings p:before {
+    content: '';
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 5px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 8px 8px;
+    border-left-color: #FA9D0D;
+    color: black;
+}
+
+.about-me-section h3 {
+    padding: 20px;
+}
+
+.about-me-section h3 span {
+    font-weight: bold;
+}
+
+.about-me-info {
+    list-style-type: none;
+}
+
+.about-me-info li {
+    padding: 5px 10px;
+}
+
+.about-me-info li span {
+    color: #6c757d;
+}
+
+.about-me-title {
+    float: left;
+    color: white;
+    position: relative;
+}
+
+.about-me-title span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: -1px;
+    background-color: #ffcd38;
+}
+
+.about-me-details {
+    margin-left: 150px;
+    display: block;
+}
+
+.about-me-social-icons {
+    padding: 20px 10px;
+}
+
+.about-me-icons-container {
+    list-style-type: none;
+    width: 65%;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.about-me-icons-container li {
+    display: inline;
+    padding: 0px 5px;
+}
+
+.about-me-icons-container li .fa-1x {
+    font-size: 20px;
+}
+
+.about-me-icons-container li .fa-square {
+    color: #212529;
+}
+
+#resume-content {
+    background-color: black;
+    color: #6c757d;
+}
+
+.resume-title {
+    padding: 10px 0;
+}
+
+.resume-title h3 {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 -10px;
+    padding: 10px 20px 10px 70px;
+    background-color: #FA9D0D;
+    color: #fff;
+    line-height: 1.1em;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+
+.resume-title h3:after {
+    display: block;
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #FA9D0D;
+}
+
+.education-title {
+    padding: 0px 30px;
+    color: #ffcd38;
+    margin: 10px 30px;
+}
+
+.education-date {
+    color: white;
+    position: relative;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.education-date:after {
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    content: "";
+    background: #ffcd38;
+    bottom: 8px;
+    left: 30px;
+}
+
+.level-title {
+    font-family: 'Lato', sans-serif;
+    color: #FA9D0D;
+    text-transform: uppercase;
+    font-size: 0.80rem;
+}
+
+.level-container {
+    padding: 0px 40px;
+}
+
+.level-container p {
+    padding: 15px 0px;
+}
+
+.coding-title {
+    padding: 0px 30px;
+    color: #ffcd38;
+    margin: 10px 30px;
+}
+
+.designing-title {
+    padding: 0px 30px;
+    color: #ffcd38;
+    margin: 10px 30px;
+}
+.skill {
+    padding: 10px 30px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.skill-name {
+    padding-left: 10px;
+}
+
+.progress {
+    border-radius: 10px;
+    height: 15px;
+}
+
+.progress-bar {
+    background-color: #FA9D0D;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#portfolio-content {
+    background-color: black;
+    color: #6c757d;
+}
+
+.portfolio-title {
+    padding: 10px 0px;
+}
+
+.portfolio-title h3 {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 -10px;
+    padding: 10px 20px 10px 70px;
+    background-color: #FA9D0D;
+    color: #fff;
+    line-height: 1.1em;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+
+.portfolio-title h3:after {
+    display: block;
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #FA9D0D;
+}
+
+.portfolio-container {
+    margin: 20px 0px;
+}
+
+.projects {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+    opacity: 0.3;
+}
+
+.projects:hover img {
+    opacity: 1;
+}
+
+.portfolio-text-container {
+    transition: .5s ease;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+}
+
+.portfolio-text {
+    background-color: #FA9D0D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#contact-content {
+    background-color: black;
+    color: #6c757d;
+}
+
+.contact-title {
+    padding: 10px 0px;
+}
+
+.contact-title h3 {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 -10px;
+    padding: 10px 20px 10px 70px;
+    background-color: #FA9D0D;
+    color: #fff;
+    line-height: 1.1em;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact-title h3:after {
+    display: block;
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    content: "";
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #FA9D0D;
+}
+
+.contact-info-title {
+    color: white;
+    position: relative;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.contact-info-title:after {
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    content: "";
+    background: #ffcd38;
+    bottom: 8px;
+    left: 30px;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list li {
+    padding: 15px 10px;
+    color: white;
+}
+
+.contact-list li i {
+    padding-right: 10px;
+    font-size: 25px;
+    color: #FA9D0D;
+}
+
+.contact-form-title {
+    color: white;
+    position: relative;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.contact-form-title:after {
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    content: "";
+    background: #ffcd38;
+    bottom: 8px;
+    left: 30px;
+}
+
+.contact-form-list {
+    list-style-type: none;
+    width: 90%;
+}
+
+.contact-form-list li {
+    padding: 20px 10px;
+}
+
+.contact-form-list li input {
+    width: 100%;
+}
+
+input[type="text"], textarea {
+    padding: 10px 20px;
+}
+
+.btn-orange {
+    background-color: white;
+    color: black;
+    border: 3px solid #ffcd38;
+}
+
+.btn-orange:hover {
+    background-color: #ffcd38;
+}
+
+.visibility-off {
+    visibility: hidden;
+}
+
+.education-level-text{
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* .content {
+    animation: 0s linear 2.3s forwards fade-in-right ;
+}
+
+@keyframes fade-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+ */

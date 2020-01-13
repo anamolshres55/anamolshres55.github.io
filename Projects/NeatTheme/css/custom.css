@@ -1,0 +1,1136 @@
+
+.body {
+    overflow-x: hidden;
+}
+
+header {
+    display: none;
+}
+
+#wrapper {
+	overflow: scroll;
+}
+
+.mobile-logo-wrapper {
+    margin-left: 20%;
+    display: inline;
+    margin-right: 10%;
+}
+
+#mobile-menu-list {
+    display: none;
+    padding-top: 40px;
+}
+
+#mobile-menu-list a {
+    color: #888;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 0px;
+    margin: 0px 5px;
+    border-bottom: 1px solid #888;
+}
+
+.mobile-menu-list a:active {
+    color: #1abc9c;
+}
+
+.dropdown-icon {
+    color: #888;
+    float: left;
+    padding: 10px 20px;
+
+}
+
+.dropdown-icon:active , .dropdown-icon:focus {
+    color: #1abc9c;
+}
+
+.mobile-menu {
+    padding: 30px 10px;
+}
+
+#searchDiv {
+    display: none;
+}
+
+.search-box {
+    position: absolute;
+    top: 300px;
+}
+
+.search-box span {
+    font-size: 24px !important;
+    letter-spacing: 0px;
+    font-weight: 500;
+    text-transform: none;
+    color: #858793;
+}
+
+#searchDiv input[type=text] {
+    padding: 6px;
+    font-size: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+
+.closesearchbtn {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    right: 0;
+
+}
+
+.fa-search {
+    color: #858793; 
+    margin-right: 10px;
+}
+
+.fa-bars {
+    color: #858793;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar-logo {
+   padding:  20px 0 20px 40px!important;
+}
+
+.sidenav h6 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #858793;
+    max-width: 350px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.sidebar-icons {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.sidebar-instagram-gallery {
+    padding-left: 40px;
+}
+
+.sidebar-icons > .fa-stack {
+    color:  #858793;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 105px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.slider-image {
+    position: relative;
+}
+
+.sidenav img {
+    padding: 10px;
+}
+
+.carousel-caption {
+    top: 20%;
+    left: 10%;
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+    font-family: 'Dosis',sans-serif;
+    padding-bottom: 20px;
+}
+
+.slider-image {
+    height: 90vh;
+	width: 140vw!important;
+	padding-top: 0px !important;
+}
+
+.slider-text {
+    width: 280px;
+    font-family: 'Poppins';
+    font-size: 16px;
+	padding-bottom: 0px!important;
+}
+
+.btn-learn {
+    background-color: #4ce59e;
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.about-content-image {
+    display: none;
+}
+
+.about-content-heading {
+    color: #5e5f68;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.pc-video {
+    display: none;
+}
+
+.check-list-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+
+.check-list-item p {
+    display: inline;
+    color: #858793;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.check-list-item .fa-check {
+    color: #f8a169;
+    font-size: 14px;
+    padding-right: 20px;
+
+}
+
+.btn-learn2 {
+    background-color: #4ce59e;
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+
+.about-content-mobile-image {
+    width: 80vw;
+    margin-top: 30%;
+    margin-right: 5%;
+}
+
+.services-content {
+    margin-top: 120px;
+    background-color: #F7F8FA;
+    margin-bottom: 100px;
+}
+
+.services-content-text {
+   padding-top: 100px;
+}
+
+.services-content-text h1 {
+    color: #5e5f68;
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 320px;
+
+}
+
+.services-content-text p {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+
+.services-row {
+	margin-right: 0px;
+}
+.services-row img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.services-row h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.services-row p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+.skill-bar {
+    background-color: #E8ECF6;
+    min-height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20%;
+}
+
+
+.skill-bar-heading {
+    padding-bottom: 10px;
+    padding-left: 10%;
+    color: #5e5f68;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+}
+
+.skill-bar-text {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.skill-bar img {
+    float:left;
+    padding-left: 50px;
+    width: 90vw;
+    margin-bottom: 100px;
+}
+
+.skills {
+    text-align: right; 
+    padding-right: 20px; 
+    line-height: 40px; 
+    color: white; 
+}
+
+.progress {
+    margin-bottom: 10px;
+    height: 10px;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.design-skill {
+    width: 85%; background-color: #4ce59e;
+}
+
+.development-skill {
+    width: 55%; background-color: #4ce59e;
+}
+
+.marketing-skill {
+    width: 70%; background-color: #4ce59e;
+}
+
+.skill-level {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+}
+
+.skill-name {
+    margin-left: 10%;
+}
+
+business-team {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.business-team h2 {
+    color: #5e5f68;
+    font-size: 35px;
+    line-height: 54px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 350px;
+}
+
+.business-team p {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+}
+
+.team-info {
+    margin-left: 10%;
+    margin-right: 7%;
+    width: 90%;
+}
+
+.team-members {
+    flex-grow: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.team-members img {
+    padding-bottom: 30px;
+}
+
+.team-members h3 {
+    color: #5e5f68;
+    font-size : 24px;
+    font-family: 'Dosis',sans-serif;
+}
+
+.team-members p {
+    color: #858793;
+    font-size: 18px;
+    font-family: 'Dosis',sans-serif;
+}
+
+.fa-stack {
+    color: #4CE59E;
+    padding-right: 5px;
+}
+
+.article-content {
+    padding-top: 150px;
+    padding-left: 50px;
+    background-color: #F7F8FA;
+    padding-bottom: 150px;
+}
+
+.article-content video {
+    float: left;
+    padding-right: 30px;
+}
+
+.article-content h3 {
+    color: #5e5f68;
+    font-size: 35px;
+    line-height: 54px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.article-content h6 {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.article-content p {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.article-content-text {
+    padding-bottom: 100px;
+}
+
+client-list {
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://bridge209.qodeinteractive.com/wp-content/uploads/2018/04/home-parallax-img.jpg");
+    min-height: 600px;
+    color: white;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.carousel-indicators li {
+    background-color: white;
+}
+
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+}
+
+.carousel-item p {
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.carousel-indicators {
+    padding-top: 120px;
+}
+
+#satisfied-clients {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom : 150px;
+    margin-top: 10%;
+}
+
+#satisfied-clients h2 {
+    color: #5e5f68;
+    font-size: 48px;
+    line-height: 54px
+}
+
+#satisfied-clients p {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.client-list {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(http://bridge209.qodeinteractive.com/wp-content/uploads/2018/04/home-parallax-img.jpg);
+    min-height: 600px;
+    color: white;
+}
+
+#satisfied-clients { 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom : 150px;
+}
+
+#satisfied-clients img {
+    width: 70vw;
+}
+
+#satisfied-clients h2{
+    color: #5e5f68;
+    font-size: 48px;
+    line-height: 54px
+}
+
+#satisfied-clients p {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.bar, .fill, .c100 {
+    border-color: #4CE59E!important;
+}
+
+.c100:hover > span {
+    color: #4CE59E;
+}
+
+.c100{
+    color: #5E5F68;
+    font-weight: 600;
+    position: relative;
+    font-size: 200px;
+}
+
+.bar-text1 {
+    position: relative;
+    font-size: 25px;
+    left: 210px;
+    top: 120px;
+    color: #858793;
+    font-family: 'Dosis',sans-serif;
+	max-width: 100px;
+}
+
+.bar-text2 {
+    position: relative;
+    left: 215px;
+    top: 100px;
+    color: #858793;
+    font-family: 'Dosis',sans-serif;
+    font-size: 25px;
+	max-width: 100px;
+}
+
+.visiter-info {
+    margin-bottom: 50px;
+    width: 100vw;
+}
+.visiter-row {
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+
+.visiter-column {
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 125px;
+}
+
+.visiter-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.visiter-info-content {
+    background-color: #7CCBFF;
+}
+
+.visiter-text {
+    width: 250px;
+    border-radius: 12px;
+    height: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    color: #858793;
+}
+
+::placeholder {
+   padding: 20px;
+   color: #858793;
+   font-family: 'Poppins',sans-serif;
+   font-size: 15px
+}
+
+.trial-button {
+    background-color: #f8a169;
+    color: white;
+    border-radius : 12px;
+}
+
+.footer-company-info {
+    text-align: left;
+}
+
+.footer-company p {
+    color: #858793;
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.footer-social-icons{
+    padding: 30px 0px;
+    font-size: 25px;
+}
+
+.related-links {
+    font-family: 'Dosis',sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #858793;
+}
+
+.useful-links {
+    color: #858793;
+}
+
+.footer-icons {
+    color: #66e59c;
+    padding: 0px 10px;
+}
+
+.footer-contact p {
+    color: #858793;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px){
+    .btn-learn2 {
+        margin-left: 30%;
+    }
+
+    .team-info {
+        width: unset;
+    }
+
+    .services-content-text p {
+        width: 500px;
+    }
+
+    .business-team p {
+        max-width: 500px;
+    }
+
+    .bar-text1 {
+        left: 50px;
+        top: 220px;
+    }
+
+    .bar-text2 {
+        left: 65px;
+        top: 215px;
+    }
+
+    #satisfied-clients img{
+        padding-top: 100px;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    body {
+        font-family: 'Dosis',sans-serif;
+        overflow-x: hidden;
+    }
+    
+    header{
+        display: block;
+    }
+
+    .fixed-top {
+        z-index: 50!important;
+    }
+    
+    .header-logo {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+    
+    .header-text {
+        color: #858793;
+        font-size: 18px;
+        padding-right: 30px!important;
+        font-weight: 500;
+    }
+    
+    .header-text:active, .header-text:hover {
+        text-decoration: underline;
+        color: #858793; 
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .slider-image {
+        height: 680px;
+    }
+
+	.slider-text{
+		width: 500px!important;
+	}
+	
+    .header-icons {
+        cursor: pointer;
+    }
+    
+    #aboutus { 
+        width: 100vw;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+    height: 120px;
+    width: 60px;
+    background-size: 100%, 100%;
+    background-image: none;
+    }
+
+    .carousel-control-prev-icon {
+    position: absolute;
+    left: 0;
+    }
+
+    .carousel-control-next-icon {
+    position: absolute;
+    right: 0;
+    }
+
+    .carousel-control-next-icon {
+        position: absolute;
+        right: 0;
+    }
+    
+    .carousel-control-next-icon:after{
+      content: '>';
+      font-size: 35px;
+      color: #858793;
+      position: relative;
+      top: 20px;
+    }
+    
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 35px;
+      color: #858793;
+      position: relative;
+      top: 20px;
+    }
+    
+    .slider-controls {
+        background-color: white;
+        padding: 10px;
+        opacity : 1;
+    }
+
+    .carousel-caption {
+        top: 15%;
+        left: 10%;
+        text-align: left;
+        color: white;
+    }
+
+    .carousel-caption h1 {
+        font-size: 65px;
+        width: 450px;
+        padding-bottom: 15px;
+        line-height: 1;
+    }
+    
+    .carousel-item p {
+        font-size: 18px;
+        width: 500px;
+        padding-bottom: 10px;
+    } 
+
+    .carousel-indicators {
+        display: none
+    }
+
+    #about-content{
+        margin: 10%;
+        margin-bottom: 50px;
+        height: 600px;
+    }
+
+    .about-content-image{
+        float:right;
+        display: block;
+        padding-top: 150px;
+    }
+
+    .about-content-text{
+        float: left;
+        color: #5e5f68;
+    }
+
+    .about-content-heading{
+        font-size: 48px;
+        width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .check-list-item{
+        margin: 10px;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+
+    .check-list-item p{
+        display: inline;
+        padding-left: 10px;
+        font-size: 18px;
+        color: #5e5f68;
+        font-weight: 400;
+        
+    }
+
+    .btn-learn2  {
+        margin-left: 45px!important;
+    }
+
+    .about-content-mobile-image{
+        display: none;
+    }
+
+    .services-content-text h1{
+        width: 600px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .services-content-text p{
+        width: 65%;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .services-content{
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#f7f8fa !important;
+        margin-bottom: 100px;
+    }
+    
+    .services-content-text{
+        text-align:center;
+        padding-top: 50px;
+    }
+    
+    .services-content-subheading{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        max-width: 800px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #5e5f68;
+    }
+    
+    .services-row{
+      margin-left: 8%;
+      margin-right: 7%;
+    }
+    
+    .col-sm{
+        padding: 15px;
+        flex-grow: 0;
+        text-align: center;
+    }
+    
+    .services-row img{
+        width: 345px;
+        height: 235px;
+    }
+    
+    .services-row p{
+        width: 280px;
+        padding-left: 50px;
+        font-size: 18px;
+    }
+
+    .skill-bar{
+        background-color: #E8ECF6;
+        min-height: 530px;
+    }
+    
+    
+    .skill-bar-heading{
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+    
+    .skill-bar-text{
+        color: #858793;
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-right: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .skill-bar img{
+        float:left;
+        padding-right: 80px;
+        width: 700px;
+        height: 530px;
+    }
+        
+    .skills {
+        text-align: right; 
+        padding-right: 20px; 
+        line-height: 40px; 
+        color: white; 
+    }
+    
+    .progress {
+        margin-bottom: 10px;
+        height: 10px;
+        width: 35%;
+    }
+    
+    .design-skill {
+        width: 85%; background-color: #4ce59e;
+    }
+    
+    .development-skill {
+        width: 55%; background-color: #4ce59e;
+    }
+    
+    .marketing-skill {
+        width: 70%; background-color: #4ce59e;
+    }
+    
+    .skill-level {
+        position: absolute;
+        right: 4%;
+        font-family: 'Poppins',sans-serif;
+        font-size: 13px;
+    }
+
+    .skill-name {
+        margin-left: 0;
+        font-family: 'Poppins',sans-serif;
+        font-size: 13px;
+    }
+    
+    .business-team h2 {
+        width: 100%;
+    }
+
+    .business-team p {
+        color: #858793;
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .team-info {
+        margin-right: 10%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    .mobile-video {
+        display: none;
+    }
+
+    .pc-video {
+        padding-right: 35px;
+        display: block;
+        float: left;
+    }
+
+    .article-content h3 {
+        font-size: 48px;
+    }
+
+    .client-list .carousel-indicators {
+        display: flex;
+    }
+
+    .carousel-item p { 
+        width: 100%;
+        padding-bottom: 100px!important;
+    }
+
+    .carousel-item img {
+        padding-top: 50px;
+		
+    }
+	
+	.slider-image{
+		width: 100%!important;
+	}
+
+    .bar-text1 {
+        position: relative;
+        left: 40px;
+        top: 220px;
+    }
+    
+    .bar-text1 h6 {
+        color: #858793;
+        font-family: 'Dosis',sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    
+    .bar-text2 {
+        position: relative;
+        left: 60px;
+        top: 218px
+    }
+    
+    .bar-text2 h6 {
+        color: #858793;
+        font-family: 'Dosis',sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    #satisfied-clients{
+        margin: 10%;
+    }
+    
+    #satisfied-clients img {
+        width: 50%;
+        float: right;
+        position: relative;
+        top: -100px;
+        padding-top: 0px;
+    }
+
+    #satisfied-clients p{
+        width: 500px;
+    }
+    
+    .visiter-info{
+        margin-top: 30%;
+    }
+
+    .visiter-column{
+        width: 12%;
+    }
+
+    .footer-social-icons{
+        font-size: 15px;
+    }
+}
