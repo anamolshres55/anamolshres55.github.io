@@ -18,6 +18,7 @@
         text-align: center;
         transform: none!important;
     }
+
     #home-content {
         top: 40%!important;
         height: 100%;
@@ -167,7 +168,7 @@ a:hover {
     font-family: 'Lato', sans-serif;
 }
 
-.sidebar-menu-container li a {
+.sidebar-menu-item{
     color: #ffffff;
     transition: 0.4s;
     font-size: 20px;
@@ -176,7 +177,7 @@ a:hover {
     margin: 0 10px;
 }
 
-.sidebar-menu-container li a:hover {
+.sidebar-menu-item:hover {
     background-color: white;
     color: black;
     padding: 10px 10px;
@@ -707,6 +708,21 @@ input[type="text"], textarea {
 .education-level-text{
     font-size: 0.85rem;
     font-style: italic;
+}
+
+.cv-button{
+    background-color: #FA9D0D;
+    color: #000000;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 0.9rem;
+    transition: 0.4s;
+}
+
+.cv-button:hover{
+    background-color: #ffffff;
+    border-left: 5px solid #FA9D0D;
+
 }
 
 /* .content {
